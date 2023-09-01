@@ -1,0 +1,117 @@
+@keyframes animar{
+    0% {
+        transform: scale(.3);
+        border-radius: 100%;
+
+    }
+}
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color:white !important;
+    animation-name: animar;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+}
+h1{
+    color: black;
+    font-style: italic;
+    margin-left: 25px !important;
+}
+dd{
+    font-style: italic;
+    font-size: 20px;
+    width: 400px;
+}
+.menu{
+    list-style: none;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    color:black !important; 
+    display: inline-flex;
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+.menu li{
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.199);
+}
+.menu li:hover{
+    background-color: rgb(151, 232, 232);
+}
+.menu__diseño{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__img{
+    width: 200px;
+    height: 100px ;
+}
+.menu__redes{
+    width: 200px;
+    height: 100px;
+    margin: 0 10px;
+}
+.img-1{
+    width: 900px;
+    height: 1000px;
+    margin-left: 120px;
+}
+.margen{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    animation-name: animar;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+}
+.dise{
+    display: flex !important;
+    justify-content: center;
+}
+.img-2{
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer{
+    background-color:rgb(151, 232, 232);
+    animation-name: animar;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+}
+.color{
+    background-color:rgb(151, 232, 232) ;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px !important;
+}
+.tex{
+    display: flex !important;
+    justify-content: center !important;
+}
+.color-1{
+    background-color:rgba(176, 175, 175, 0.675) ;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px !important;
+}
+.animacion{
+    animation-name: animar;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+}
